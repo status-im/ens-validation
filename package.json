@@ -1,8 +1,7 @@
 {
-  "name": "ens-validation",
-  "version": "0.0.0",
-  "description": "",
-  "private": true,
+  "name": "ens-validation-test",
+  "version": "0.1.1",
+  "description": "Validate ENS names",
   "main": "dist/ens-validation.umd.js",
   "module": "dist/ens-validation.es6.js",
   "typings": "src/index",
@@ -82,6 +81,7 @@
       "ts",
       "tsx"
     ],
+    "testURL": "http://localhost",
     "transform": {
       "\\.(ts|tsx)$": "<rootDir>/node_modules/ts-jest/preprocessor.js"
     },
