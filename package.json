@@ -33,17 +33,17 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/MyCryptoHQ/ens-validation.git"
+    "url": "git+https://github.com/status-im/ens-validation.git"
   },
   "author": "MyCrypto <henry@mycrypto.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/MyCryptoHQ/ens-validation/issues"
+    "url": "https://github.com/status-im/ens-validation/issues"
   },
   "files": [
     "dist"
   ],
-  "homepage": "https://github.com/MyCryptoHQ/ens-validation#readme",
+  "homepage": "https://github.com/status-im/ens-validation#readme",
   "devDependencies": {
     "@types/expect": "^1.20.3",
     "@types/jest": "^22.2.3",
