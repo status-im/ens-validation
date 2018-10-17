@@ -3,10 +3,14 @@ import { SpoofChecker } from './spoof-checker';
 
 export function validate(input: string, verbose: boolean): boolean {
   try {
-    if (verbose) { console.log('input:', input); }
+    if (verbose) {
+      console.log('input:', input);
+    }
     const domain: Domain = new Domain(input);
     const checker: SpoofChecker = new SpoofChecker();
-    if (verbose) { console.log('Labels: ', domain.labels); }
+    if (verbose) {
+      console.log('Labels: ', domain.labels);
+    }
     return (
       domain.labels.every(label =>
         checker.safeToDisplayAsUnicode(label, domain.isTldAscii),

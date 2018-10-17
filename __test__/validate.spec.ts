@@ -7,9 +7,9 @@ describe('test', () => {
     expect(validate.name).toEqual('validate');
   });
   it('should return false on an unsafe string', () => {
-    expect(validate(UNSAFE_STRING)).toBeFalsy();
+    expect(validate(UNSAFE_STRING, false)).toBeFalsy();
   });
   it('should return true on a safe string', () => {
-    expect(validate(SAFE_STRING)).toBeTruthy();
+    expect(validate(SAFE_STRING, false)).toBeTruthy();
   });
 });

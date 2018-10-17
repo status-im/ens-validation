@@ -1,8 +1,7 @@
 {
-  "name": "ens-validation",
-  "version": "0.0.0",
-  "description": "",
-  "private": true,
+  "name": "ens-validation-test",
+  "version": "0.1.1",
+  "description": "Validate ENS names",
   "main": "dist/ens-validation.umd.js",
   "module": "dist/ens-validation.es6.js",
   "typings": "src/index",
@@ -34,17 +33,17 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/MyCryptoHQ/ens-validation.git"
+    "url": "git+https://github.com/status-im/ens-validation.git"
   },
   "author": "MyCrypto <henry@mycrypto.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/MyCryptoHQ/ens-validation/issues"
+    "url": "https://github.com/status-im/ens-validation/issues"
   },
   "files": [
     "dist"
   ],
-  "homepage": "https://github.com/MyCryptoHQ/ens-validation#readme",
+  "homepage": "https://github.com/status-im/ens-validation#readme",
   "devDependencies": {
     "@types/expect": "^1.20.3",
     "@types/jest": "^22.2.3",
@@ -82,6 +81,7 @@
       "ts",
       "tsx"
     ],
+    "testURL": "http://localhost",
     "transform": {
       "\\.(ts|tsx)$": "<rootDir>/node_modules/ts-jest/preprocessor.js"
     },
